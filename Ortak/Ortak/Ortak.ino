@@ -59,7 +59,7 @@ void loop()
 {
   
 digitalWrite(trigPin, HIGH);         // To set trinpin as HIGH        
-delayMicroseconds(200);             // Wait for 1000 miliseconds
+delayMicroseconds(200);              // Wait for 1000 miliseconds
 digitalWrite(trigPin, LOW);          // To set trinpin as LOW                         
 
 sure = pulseIn(echoPin,HIGH);        // To define an equation for how to obtain elapsed time
@@ -122,7 +122,7 @@ if (mesafe < 10) {                   //  To do statements when distance < 10 cen
 
  ekran1.clear();                     // To clear everything on the LCD screen 
 }
-                                    //*************************************************************************
+                                     //*************************************************************************
                                     
 else if (mesafe < 50) {              //  To do statements when distance < 50 cm && distance > 25 centimeters 
    digitalWrite(greenled1,LOW);      // greenled1 is OFF
